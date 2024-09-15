@@ -1,0 +1,78 @@
+body{
+    /* background-color: darkgrey; */
+    background-image: url("../public/Sunset.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.TodoList-app{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 4rem;
+    color: white;
+}
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px ;
+    color: black;
+
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 3px solid  grey;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.text{
+    flex: 1;
+}
+.delete-button, .move-button{
+    padding: 8px 12px ;
+    font-size: 1.4rem;
+    margin-left: 10px;
+
+
+}
+ol{
+    padding: 0;
+}
+button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    padding: 10px 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.add-button{
+    background-color: lightgreen;
+}
+.add-button:hover{
+    background-color: darkgreen;
+}
+.delete-button{
+    background-color: lightcoral;
+}
+.delete-button:hover{
+    background-color: red;
+}
+.move-button{
+    background-color: lightblue;
+}
+.move-button:hover{
+    background-color: darkblue;
+}
