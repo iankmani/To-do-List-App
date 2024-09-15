@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "./TodoList.css"
 
 const TodoList = () => {
-    const [tasks, setTasks] = useState(["Roll Some Weed", "Get Extremely Drunk"])
+    const [tasks, setTasks] = useState(["Touch Murima😂", "Go to Adani Airport✈️","Buy walkerTown Tickets😎"])
     const [newTask, setNewTask] = useState("")
 
     const handleInputChange = (event) =>{
