@@ -58,6 +58,9 @@ button{
     font-size: 1.7rem;
     font-weight: bold;
 }
+.g{
+    color: gold;
+}
 .add-button{
     background-color: lightgreen;
 }

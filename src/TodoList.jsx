@@ -50,7 +50,7 @@ const handleDeleteTask = (index) => {
   return (
     <div className='TodoList-app'>
         <div className='TodoList-input'>
-        <h1>G-PANGE</h1>
+        <h1><span className='g'>G</span>-PANGE</h1>
         <input type="text" value={newTask} onChange={handleInputChange} placeholder="Enter task"/>
         <button className='add-button' onClick={handleAddTask}>Add Task</button>
         </div>
